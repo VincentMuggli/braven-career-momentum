@@ -17,7 +17,7 @@ The concept is small on purpose. A short weekly check-in, a next-step plan, a re
 
 ## How it was made
 
-I worked with Claude as a collaborator with a clear division of labor: it did the research legwork, I judged what was credible; it drafted, I directed the design and voice; then I ran a devil's-advocate pass against my own deck and fixed what didn't hold. Every factual claim traces to Braven's public site or its [2026 Jobs Report](https://jobsreport.braven.org/), and assumptions are labeled as assumptions.
+I worked with Claude as a collaborator with a clear division of labor: Claude did the research legwork, I judged what was credible; it drafted, I directed the design and voice; then I ran a devil's-advocate pass against my own deck and fixed what didn't hold. Every factual claim traces to Braven's public site or its [2026 Jobs Report](https://jobsreport.braven.org/), and assumptions are labeled as assumptions.
 
 ## Disclaimer
 
