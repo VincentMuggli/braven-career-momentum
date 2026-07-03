@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Braven Career Momentum — Vincent Muggli</title>
+<meta name="description" content="An independent portfolio concept: a light career-support tool for Braven Fellows working toward a strong first opportunity. Not affiliated with Braven.">
+<meta property="og:title" content="Braven Career Momentum">
+<meta property="og:description" content="A light support tool for Fellows still working toward a strong first opportunity after the Accelerator. Independent portfolio concept by Vincent Muggli.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/s1.jpg">
+<style>
+  :root{
+    --base:#FAF6EF; --ink:#141414; --navy:#0E2A47; --blue:#2358D8;
+    --yellow:#F4C23A; --coral:#EF5B45; --mute:#5C6773; --line:#E4DCCE;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--base);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.55;font-size:17px}
+  .wrap{max-width:980px;margin:0 auto;padding:0 24px}
+  a{color:var(--blue)}
+
+  /* header */
+  header{padding:72px 0 56px;position:relative;overflow:hidden}
+  .blocks{position:absolute;top:0;right:24px;display:grid;grid-template-columns:44px 44px;grid-template-rows:44px 44px}
+  .blocks div:nth-child(1){background:var(--navy)}
+  .blocks div:nth-child(2){background:var(--blue)}
+  .blocks div:nth-child(3){background:var(--coral)}
+  .blocks div:nth-child(4){background:var(--yellow)}
+  .eyebrow{color:var(--coral);font-weight:700;letter-spacing:.18em;font-size:13px;text-transform:uppercase;margin-bottom:14px}
+  h1{font-size:clamp(42px,7vw,72px);line-height:1.02;font-weight:800;letter-spacing:-.01em;max-width:12ch}
+  .sub{margin-top:18px;font-size:clamp(18px,2.4vw,22px);color:var(--navy);max-width:34em}
+  .byline{margin-top:14px;color:var(--mute);font-size:15px}
+
+  /* cta row */
+  .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+  .btn{display:inline-block;padding:13px 22px;font-weight:700;font-size:15px;text-decoration:none;border-radius:2px}
+  .btn.primary{background:var(--ink);color:#fff}
+  .btn.secondary{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+
+  /* section scaffolding */
+  section{padding:52px 0;border-top:1px solid var(--line)}
+  .kick{display:flex;align-items:baseline;gap:14px;margin-bottom:22px}
+  .kick .num{font-size:38px;font-weight:800;color:var(--coral)}
+  .kick .label{letter-spacing:.16em;font-size:13px;font-weight:700;color:var(--mute);text-transform:uppercase}
+  h2{font-size:clamp(26px,4vw,36px);font-weight:800;line-height:1.08;margin-bottom:18px;max-width:24ch}
+  p{max-width:66ch;margin-bottom:14px}
+  .note p{font-size:17px}
+  .packet{margin:10px 0 6px 2px;list-style:none}
+  .packet li{padding-left:22px;position:relative;margin-bottom:10px;max-width:64ch}
+  .packet li::before{content:"";position:absolute;left:0;top:9px;width:11px;height:11px;background:var(--coral)}
+
+  /* slides */
+  .slide{margin-bottom:34px}
+  .slide img{width:100%;height:auto;display:block;border:1px solid var(--line);box-shadow:0 6px 24px rgba(20,20,20,.08)}
+  .slide figcaption{margin-top:8px;font-size:13.5px;color:var(--mute)}
+
+  /* downloads */
+  .dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:8px}
+  .card{background:#fff;border:1px solid var(--line);padding:22px}
+  .card h3{font-size:17px;margin-bottom:6px}
+  .card p{font-size:14.5px;color:var(--mute);margin-bottom:12px}
+  .card a{font-weight:700;font-size:15px}
+
+  footer{border-top:1px solid var(--line);padding:36px 0 56px;font-size:13.5px;color:var(--mute)}
+  footer .disc{font-weight:700;color:var(--ink);margin-bottom:8px}
+  footer p{max-width:80ch}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="blocks"><div></div><div></div><div></div><div></div></div>
+    <div class="eyebrow">Independent Portfolio Concept</div>
+    <h1>Braven Career Momentum</h1>
+    <p class="sub">A light support tool for Fellows still working toward a strong first opportunity after the Accelerator.</p>
+    <p class="byline">By Vincent Muggli &nbsp;·&nbsp; Claude Corps application &nbsp;·&nbsp; Not affiliated with Braven</p>
+    <div class="cta">
+      <a class="btn primary" href="assets/Braven_Career_Momentum_Portfolio.pdf">Read the full packet (PDF)</a>
+      <a class="btn secondary" href="#deck">View the slides</a>
+    </div>
+  </header>
+
+  <section class="note">
+    <div class="kick"><span class="num">01</span><span class="label">The idea</span></div>
+    <h2>Two problems that turn out to be one</h2>
+    <p>Braven prepares college students, most of them first-gen or from low-income backgrounds, for a strong first job after graduation, and its support already runs through six months past graduation. Reading their public materials, one thing stood out. The stretch where Fellows lose search momentum and the data Braven needs to show funders its model works are the same window. Help a Fellow keep moving between coaching sessions, and the progress signal comes out as a byproduct. No separate survey.</p>
+    <p>So the concept is small on purpose: a short weekly check-in, a next-step plan, a review of a resume or an outreach note, interview prep, and a clear handoff to a person when the moment needs one. It's a support layer, not a replacement for coaches. That line held through every decision.</p>
+  </section>
+
+  <section id="deck">
+    <div class="kick"><span class="num">02</span><span class="label">The pitch</span></div>
+    <h2>Seven slides, start to finish</h2>
+    <figure class="slide"><img src="assets/s1.jpg" alt="Slide 1: Braven Career Momentum, concept title"><figcaption>1 · Concept</figcaption></figure>
+    <figure class="slide"><img src="assets/s2.jpg" alt="Slide 2: The moment after the course — where momentum breaks down"><figcaption>2 · The moment after the course</figcaption></figure>
+    <figure class="slide"><img src="assets/s3.jpg" alt="Slide 3: Who it supports — a Fellow in the middle of the search"><figcaption>3 · Who it supports</figcaption></figure>
+    <figure class="slide"><img src="assets/s4.jpg" alt="Slide 4: What Career Momentum does, and what stays human-led"><figcaption>4 · What it does</figcaption></figure>
+    <figure class="slide"><img src="assets/s5.jpg" alt="Slide 5: Example experience — one check-in, start to finish"><figcaption>5 · Example experience</figcaption></figure>
+    <figure class="slide"><img src="assets/s6.jpg" alt="Slide 6: Learning and measurement with minimal data collection"><figcaption>6 · Learning and measurement</figcaption></figure>
+    <figure class="slide"><img src="assets/s7.jpg" alt="Slide 7: A responsible first version and assumptions to validate"><figcaption>7 · A responsible first version</figcaption></figure>
+  </section>
+
+  <section class="note">
+    <div class="kick"><span class="num">03</span><span class="label">The process</span></div>
+    <h2>How this was made</h2>
+    <p>The process is the point. I treated Claude as a collaborator with a clear division of labor. It did the research legwork; I judged what was credible. I directed the deck's design and voice instead of accepting a first pass. I ran a discernment step, arguing against the pitch the way a skeptical program lead would, then decided which objections survived and fixed them on the slides.</p>
+    <p>And I kept it honest: every factual claim traces to Braven's public site or its Jobs Report, assumptions are labeled as assumptions, and the open question of what data Braven actually needs is left for Braven to answer.</p>
+    <ul class="packet">
+      <li><strong>The deck</strong> (above): a seven-slide product pitch, designed to sit close to Braven's own editorial style.</li>
+      <li><strong>Working docs</strong> (in the packet): the scope cut, the experience and escalation design, a constraints-and-risks memo, and a devil's-advocate critique written against my own deck and then used to sharpen it.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="kick"><span class="num">04</span><span class="label">Downloads</span></div>
+    <h2>Take it with you</h2>
+    <div class="dl">
+      <div class="card">
+        <h3>Full packet (PDF)</h3>
+        <p>Cover note plus all seven slides, in one file.</p>
+        <a href="assets/Braven_Career_Momentum_Portfolio.pdf">Download PDF</a>
+      </div>
+      <div class="card">
+        <h3>Editable deck (PPTX)</h3>
+        <p>The presentation source, if you'd rather open it in PowerPoint.</p>
+        <a href="assets/Braven_Career_Momentum.pptx">Download PPTX</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="disc">Independent portfolio concept. Not affiliated with or commissioned by Braven.</p>
+    <p>Sources: <a href="https://braven.org">braven.org</a> · <a href="https://braven.org/enroll/">braven.org/enroll</a> · <a href="https://jobsreport.braven.org/">jobsreport.braven.org</a> (2026). Facts cited from Braven's public materials; the proposed signals, MVP, and assumptions are this concept's own. Nothing here has been built or tested. Braven's name and public information are referenced for portfolio commentary; no Braven logo or proprietary artwork is used.</p>
+  </footer>
+</div>
+
+</body>
+</html>
